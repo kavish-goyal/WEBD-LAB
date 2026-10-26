@@ -1,25 +1,46 @@
+
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Shopping Cart</title>
+    <title>Cart Page</title>
 </head>
 <body>
-    <h3>Your Shopping Cart</h3>
-    
-    <p>
-        The Shopping Cart page acts as a temporary digital holding area for all the textbooks, technical journals, or literature volumes you select while browsing our academic catalog. It calculates running costs dynamically, manages quantities, and gives you a clear overview of your pending purchase before committing financial resources.
-    </p>
-    <p>
-        On this page, you can review the complete manifest of chosen titles along with their itemized costs. You will see a structural breakdown showing the <b>Total Items</b> currently reserved and the final <b>Total Amount</b> due. Verify these items are correct before selecting checkout to proceed to the payment processor.
-    </p>
 
-    <ul>
-        <li>Example Book 1 — $15.00</li>
-        <li>Example Book 2 — $22.50</li>
-    </ul>
-    <p><b>Total Items:</b> 2</p>
-    <p><b>Total Amount:</b> $37.50</p>
-    <br>
-    <button type="button">Proceed to Checkout</button>
+    <h3>CARTPAGE: The cart page contains the details about the books
+        which are added to the cart.</h3>
+
+    <table border="1" cellspacing="0" cellpadding="8" width="85%">
+        <tr>
+            <td>CSE</td>
+            <td>Book name</td>
+            <td>Price</td>
+            <td>Quantity</td>
+            <td>Amount</td>
+        </tr>
+
+        <tr>
+            <td>ECE</td>
+            <td>Java 2</td>
+            <td>$35.5</td>
+            <td>2</td>
+            <td>$70</td>
+        </tr>
+
+        <tr>
+            <td>EEE</td>
+            <td>XML Bible</td>
+            <td>$40.5</td>
+            <td>1</td>
+            <td>$40.5</td>
+        </tr>
+
+        <tr>
+            <td>CIVIL</td>
+            <td colspan="2">Total amount</td>
+            <td colspan="2">$130.5</td>
+        </tr>
+
+    </table>
+
 </body>
 </html>
