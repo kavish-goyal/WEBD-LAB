@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONLINE BOOK STORE</title>
+    <style>                 
+        .Header {
+            background-color: rgba(255, 166, 0, 0.737);
+            height: 80px;
+            align-items: center;
+            display: flex;
+            
+        }
+        .menu {
+            display: flex;
+            text-align: center;
+            height: 50px;
+            align-items: center;
+            background-color: rgb(237, 206, 150); 
+            justify-content: space-around;
+
+        }
+        .menu a {
+            text-decoration: none;
+            flex: 1;
+            color: black;
+            height:50 px;
+            font-weight: bold;
+            justify-content: space-around;
+        }
+    
+        .logo {
+            width: 150px;
+            text-align: center;
+        }
+        .logo img {
+            width: 190px;
+            height: 90px;
+        }
+        .title {
+            flex: 1;
+            text-align: center;
+            font-weight: bold;
+            font-size: 30px;
+        }
+        .main {
+            height: 400px;
+            display: flex;
+        }
+            
+            .left{
+               width: 200px;
+               text-align: center;
+               border: 1px solid black;
+               flex-direction: column;
+               display: flex;
+    
+            }
+            .left a {
+                text-decoration: none;
+                color: black;
+                padding-top: 23px;
+            }
+            .right{
+               flex: 1;
+               text-align: center;
+               border: 1px solid black;
+               padding: 20px;
+               
+            }
+            .right iframe {
+                width: 100%;
+                height: 100%;
+                border: none;
+            }
+        
+    </style>
+</head>
+<body>
+    <div class="Header">
+        <div class="logo"> 
+           <h2> <img src="logo.jpeg" alt="Book Store Logo"> </h2>
+        </div>
+        <div class="title">
+            ONLINE BOOK STORE
+        </div>
+    </div>
+    <div class="menu">
+        <a href="MENU/home.html" target="content">Home</a>
+        <a href="MENU/login.html" target="content">Login</a>
+        <a href="MENU/registration.html" target="content">Registration</a>
+        <a href="MENU/Catalogue.html" target="content">Catalogue</a>
+        <a href="MENU/cart.html" target="content">Cart</a>
+    </div>
+    <div class="main">
+        <div class="left">
+            
+            <a href="BOOKS/CsE.html" target="content">CSE</a>
+            <a href="BOOKS/ECE.html" target="content">ECE</a>
+            <a href="BOOKS/MECH.html" target="content">MECH</a>
+            <a href="BOOKS/MATHS.html" target="content">MATHS</a>
+        </div>
+        <div class="right">
+            <iframe src="MENU/home.html" name="content">
+
+            </iframe>
+        </div>
+    </div>
+   
+</body>
+</html>
