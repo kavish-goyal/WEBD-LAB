@@ -17,19 +17,26 @@
             text-align: center;
             height: 50px;
             align-items: center;
-            background-color: rgb(237, 206, 150);
+            background-color: rgb(237, 206, 150); 
+            justify-content: space-around;
 
         }
         .menu a {
             text-decoration: none;
             flex: 1;
-            color: rgb(0, 0, 0);
+            color: black;
             height:50 px;
+            font-weight: bold;
+            justify-content: space-around;
         }
     
         .logo {
             width: 150px;
             text-align: center;
+        }
+        .logo img {
+            width: 190px;
+            height: 90px;
         }
         .title {
             flex: 1;
@@ -73,7 +80,7 @@
 <body>
     <div class="Header">
         <div class="logo"> 
-           <h2> Logo</h2>
+           <h2> <img src="logo.jpeg" alt="Book Store Logo"> </h2>
         </div>
         <div class="title">
             ONLINE BOOK STORE
@@ -89,10 +96,10 @@
     <div class="main">
         <div class="left">
             
+            <a href="BOOKS/CsE.html" target="content">CSE</a>
             <a href="BOOKS/ECE.html" target="content">ECE</a>
-            <a href="BOOKS/CSE.html" target="content">CSE</a>
-            <a href="BOOKS/EEE.html" target="content">EEE</a>
-            <a href="BOOKS/CIVIL.html" target="content">CIVIL</a>
+            <a href="BOOKS/MECH.html" target="content">MECH</a>
+            <a href="BOOKS/MATHS.html" target="content">MATHS</a>
         </div>
         <div class="right">
             <iframe src="MENU/home.html" name="content">
